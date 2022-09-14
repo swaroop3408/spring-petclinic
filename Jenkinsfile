@@ -39,8 +39,7 @@ pipeline {
                 
                 script {
                     
-                     dockerImage = docker.build -t javapetclinic 
-                    
+                     dockerImage = docker.build -t ubuntu                    
                 }
                   
                 

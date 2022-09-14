@@ -39,7 +39,7 @@ pipeline {
                 
                 script {
                     
-                     dockerImage = docker.build -t ubuntu                    
+                     dockerImage = docker.build imagename                  
                 }
                   
                 
